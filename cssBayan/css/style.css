@@ -58,6 +58,10 @@ body {
   display: block;
 }
 
+.list__item:hover .list__item-btn {
+  transform: rotate(0deg);
+}
+
 .list__item-btn {
   cursor: pointer;
   border: none;
@@ -65,10 +69,13 @@ body {
   font-size: 1.4rem;
   display: none;
   color: #0001ee;
+  transform: rotate(45deg);
 }
 
 .list:hover .list__item-btn {
   display: block;
+}
 
-  transform: rotate(-45deg);
+.active {
+  display: block;
 }
