@@ -23,7 +23,6 @@ body {
 }
 
 .list {
-  transition: all ease-in 0.4s;
   outline: 1px solid tomato;
 }
 
@@ -47,7 +46,7 @@ body {
   display: none;
 }
 
-.list:hover .list__img {
+.list__item:hover .list__img {
   background-color: aqua;
   display: block;
 }
