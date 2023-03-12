@@ -23,7 +23,7 @@ body {
 }
 
 .list {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .list__item {
@@ -62,5 +62,5 @@ body {
 .list:hover .list__item-btn {
   display: block;
 
-  /* transform: rotate(-45deg); */
+  transform: rotate(-45deg);
 }
